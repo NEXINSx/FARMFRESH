@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmFresh - Your One-Stop Farming Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo">
+                <span class="logo-icon">🌱</span> FarmFresh
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#guides">Farming Guides</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="login.html">JOIN US</a></li>
+                </ul>
+            </nav>
+            <div class="search-cart">
+                <input type="text" class="search-box" placeholder="Search products...">
+                <div class="cart-icon">
+                    🛒
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        
+        <h1>Growing Better Together</h1>
+        <p>Your one-stop marketplace for quality farming supplies and expert agricultural advice</p>
+        <button class="btn">Shop Now</button>
+    </section>
+
+    <section class="featured-categories">
+        <h2 class="section-title">Browse Categories</h2>
+        <div class="categories">
+            <div class="category-card">
+                <div class="category-img">
+                    <img src="seeds & seeding.jpg" alt="Seeds & Seedlings">
+                </div>
+                <div class="category-content">
+                    <h3>Seeds & Seedlings</h3>
+                    <p><b>Quality seeds for all seasons</b></p>
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="category-img">
+                    <img src="fertilizer.jpg" alt="Fertilizers">
+                </div>
+                <div class="category-content">
+                    <h3>Fertilizers</h3>
+                    <p><b>Organic and chemical options</b></p>
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="category-img">
+                    <img src="tools.jpg" alt="Tools & Equipment">
+                </div>
+                <div class="category-content">
+                    <h3>Tools & Equipment</h3>
+                    <p><b>Durable farming implements</b></p>
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="category-img">
+                    <img src="igrrigation.jpg" alt="Irrigation Systems">
+                </div>
+                <div class="category-content">
+                    <h3>Irrigation Systems</h3>
+                    <p><b>Water-efficient solutions</b>b</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-products" id="shop">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="products">
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="tomato.jpg" alt="Organic Tomato Seeds">
+                </div>
+                <div class="product-content">
+                    <h3>Organic Tomato Seeds</h3>
+                    <p>High-yield, disease-resistant variety</p>
+                    <div class="product-price">Rs 499</div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Add to Cart</button>
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="premium garden hoe.jpg" alt="Premium Garden Hoe">
+                </div>
+                <div class="product-content">
+                    <h3>Premium Garden Hoe</h3>
+                    <p>Ergonomic design with durable steel blade</p>
+                    <div class="product-price">Rs 599</div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Add to Cart</button>
+                        <span>⭐⭐⭐⭐☆</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="organic compost.jpg" alt="Organic Compost">
+                </div>
+                <div class="product-content">
+                    <h3>Organic Compost</h3>
+                    <p>Nutrient-rich soil amendment (5kg)</p>
+                    <div class="product-price"> RS 2099</div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Add to Cart</button>
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="drip irrigation kit.jpg" alt="Drip Irrigation Kit">
+                </div>
+                <div class="product-content">
+                    <h3>Drip Irrigation Kit</h3>
+                    <p>Complete water-saving system for small gardens</p>
+                    <div class="product-price">Rs 5999</div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Add to Cart</button>
+                        <span>⭐⭐⭐⭐☆</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="farming-guides" id="guides">
+        <h2 class="section-title">Farming Knowledge Hub</h2>
+        <div class="guides">
+            <div class="guide-card">
+                <div class="guide-img">
+                    <video id="v1" src="v10.mp4" type="v10/mp4" controls autoplay>
+                    </video> 
+                </div>
+                <div class="guide-content">
+                    <h3>Seasonal Planting Guide</h3>
+                    <p>Learn the optimal times to plant various crops in different climate zones. Our comprehensive guide helps you maximize yields through proper timing.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+            <div class="guide-card">
+                <div class="guide-img">
+                    <video src="v2.mp4" type="v2/mp4" controls autoplay></video>
+                </div>
+                <div class="guide-content">
+                    <h3>Organic Pest Control Methods</h3>
+                    <p>Discover effective ways to manage pests without harsh chemicals. Protect your crops while maintaining ecological balance in your farm.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+            <div class="guide-card">
+                <div class="guide-img">
+                    <video src="v3.mp4" type="v3/mp4" controls autoplay></video>
+                </div>
+                <div class="guide-content">
+                    <h3>Soil Health Management</h3>
+                    <p>Learn how to test, improve, and maintain healthy soil for better crop production. Understand the importance of soil structure and nutrients.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="section-title">What Farmers Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"FarmFresh has revolutionized how I source supplies for my organic farm. Their quality seeds and organic fertilizers have significantly improved my crop yields while their farming guides have been invaluable resources."</p>
+                <p class="testimonial-author">- </p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"As a new farmer, I was overwhelmed with information. The knowledge hub here helped me understand sustainable farming practices, and their starter kits were perfect for my small operation."</p>
+                <p class="testimonial-author">- </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#shop">Shop</a>
+                    <a href="#guides">Farming Guides</a>
+                    <a href="#about">About Us</a>
+                    <a href="#contact">Contact</a>
+                    <a href="login.html">JOIN US</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+                <div class="footer-links">
+                    <a href="#">Shipping Policy</a>
+                    <a href="#">Return Policy</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p> siliguri,Dist:- Darjeeling</p>
+                <p>Phone 6297355049</p>
+                <p>Email: cybercrew@farmfresh.com</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon">f</a>
+                    <a href="#" class="social-icon">t</a>
+                    <a href="#" class="social-icon">in</a>
+                    <a href="#" class="social-icon">ig</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get farming tips and special offers</p>
+                <input type="email" placeholder="Your email" style="padding: 0.8rem; width: 100%; margin-top: 0.5rem; border-radius: 5px; border: none;">
+                <button class="btn" style="margin-top: 0.5rem; width: 100%;">Subscribe</button>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 FarmFresh. All Rights Reserved.</p>
+            
+        </div>
+        <div class="voice"><button id="start">
+            <i class="fa-solid fa-microphone"></i></button>
+            <p id="output">Your assistant will talk here...</p></div>
+        
+    </footer>
+    <script src="login.js"></script>
+   
+</body>
+</html>

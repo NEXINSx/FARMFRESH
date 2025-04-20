@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account - FarmFresh</title>
+   <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo" onclick="window.location.href='#'">
+                <span class="logo-icon">🌱</span> FarmFresh
+            </div>
+            <nav>
+                <h1>LOGIN/SIGN-UP</h1>
+            </nav>
+            <div class="search-cart">
+                <input type="text" class="search-box" placeholder="Search products...">
+                <div class="cart-icon">
+                    🛒
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="auth-container">
+            <div class="tabs">
+                <div class="tab active" id="login-tab">Sign In</div>
+                <div class="tab" id="signup-tab">Sign Up</div>
+            </div>
+            
+            <div class="forms-container">
+                <!-- Login Form -->
+                <form class="login-form" id="login-form">
+                    <div class="form-group">
+                        <label for="login-email">Email Address</label>
+                        <input type="email" id="login-email" placeholder="Enter your email" required>
+                        <div class="error-message" id="login-email-error">Please enter a valid email address</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" placeholder="Enter your password" required>
+                        <div class="error-message" id="login-password-error">Password must be at least 6 characters</div>
+                    </div>
+                    
+                    <div class="remember-forgot">
+                        <div class="remember-me">
+                            <input type="checkbox" id="remember">
+                            <label for="remember">Remember me</label>
+                        </div>
+                        <a href="#" class="forgot-password">Forgot Password?</a>
+                    </div>
+                    
+                    <button type="submit" class="btn">Sign In</button>
+                    
+                    <div class="form-message" id="login-message"></div>
+                    
+                    <div class="social-login">
+                        <h3>Or Sign In With</h3>
+                        <div class="social-buttons">
+                            <div class="social-btn">f</div>
+                            <div class="social-btn">G</div>
+                            <div class="social-btn">in</div>
+                        </div>
+                    </div>
+                </form>
+                
+                <!-- Signup Form -->
+                <form class="signup-form" id="signup-form">
+                    <div class="form-group">
+                        <label for="signup-name">Full Name</label>
+                        <input type="text" id="signup-name" placeholder="Enter your full name" required>
+                        <div class="error-message" id="signup-name-error">Please enter your name</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="signup-email">Email Address</label>
+                        <input type="email" id="signup-email" placeholder="Enter your email" required>
+                        <div class="error-message" id="signup-email-error">Please enter a valid email address</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="signup-password">Password</label>
+                        <input type="password" id="signup-password" placeholder="Create a password" required>
+                        <div class="error-message" id="signup-password-error">Password must be at least 6 characters</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="signup-confirm-password">Confirm Password</label>
+                        <input type="password" id="signup-confirm-password" placeholder="Confirm your password" required>
+                        <div class="error-message" id="signup-confirm-password-error">Passwords do not match</div>
+                    </div>
+                    
+                    <button type="submit" class="btn">Create Account</button>
+                    
+                    <div class="form-message" id="signup-message"></div>
+                    
+                    <div class="social-login">
+                        <h3>Or Sign Up With</h3>
+                        <div class="social-buttons">
+                            <div class="social-btn">f</div>
+                            <div class="social-btn">G</div>
+                            <div class="social-btn">in</div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2025 FarmFresh. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@google/generative-ai"></script>
+
+    
+</body>
+</html>
